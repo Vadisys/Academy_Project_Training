@@ -19,4 +19,6 @@
     'demo' : [
         
     ],
+    
+    'license' : 'LGPLv3',
 }
