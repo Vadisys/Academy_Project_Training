@@ -20,5 +20,5 @@
         
     ],
     
-    'license' : 'LGPLv3',
+    'license' : 'LGPL-3',
 }
