@@ -1,3 +1,3 @@
 # _*_ coding : utf-8 _*_ 
 
-import . from SpaceShip
+from . import SpaceShip
