@@ -21,5 +21,5 @@
         
     ],
     
-    'license' : 'OPL-1',
+    'license' : 'LGPL-3',
 }
