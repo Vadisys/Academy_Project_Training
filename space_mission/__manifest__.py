@@ -18,7 +18,7 @@
     ],
     
     'demo' : [
-        
+        'demo/space_mission.xml'
     ],
     
     'license' : 'LGPL-3',
