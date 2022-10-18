@@ -11,18 +11,18 @@ class Spaceship(models.Model):
     fuel_type = fields.Selection (string= 'Fuel Type',
                                  selection = [ ('solid' 'Solid'),
                                                ('liquid', 'Liquid'),
-                                               ('solar', 'Solar') ]
+                                               ('solar', 'Solar') ],
                                             
-                                 )
+                                 copy=False)
     ship_type = fields.Selection (string ='Ship Type',
                                   selection = [ ('flyby', 'Flyby') ,
                                                ('orbiter', 'Orbiter'),
                                                ('atmospheric','Atmospheric'),
                                                ('lander','Lander'),
                                                ('rover', 'Rover'),
-                                               ('observatory', 'Observatory') ]
+                                               ('observatory', 'Observatory') ],
                                  
-                                 )                                    
+                                 copy=False)                                    
                                             
                                               
     no_passenger  = fields.Integer (string='Number of Passengers', default=0)
