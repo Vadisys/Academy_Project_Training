@@ -7,7 +7,7 @@ class Spaceship(models.Model):
     _name = 'spaceship.mission'
     _description = 'Spaceship Information'
    
-    ship_dimention = fields.Integer (string='Ship Dimension', required=True)
+    ship_dimention = fields.Float (string='Ship Dimension', default=0.00)
     fuel_type = fields.Selection (string= 'Fuel Type',
                                  selection = [ ('solid' 'Solid'),
                                                ('liquid', 'Liquid'),
@@ -25,7 +25,7 @@ class Spaceship(models.Model):
                                  )                                    
                                             
                                               
-    no_passenger  = fields.Integer (string='Number of Passengers', required= True)
+    no_passenger  = fields.Integer (string='Number of Passengers', default=0)
     sapce_crew = fields.Char (string='Space Crew', required=True)
     active = fields.Boolean (string= 'Active', required=True)
     
