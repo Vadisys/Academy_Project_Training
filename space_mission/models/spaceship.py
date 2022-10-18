@@ -9,7 +9,7 @@ class Spaceship(models.Model):
    
     ship_dimention = fields.Float (string='Ship Dimension', default=0.00)
     fuel_type = fields.Selection (string= 'Fuel Type',
-                                 selection = [ ('solid' 'Solid'),
+                                 selection = [ ('solid', 'Solid'),
                                                ('liquid', 'Liquid'),
                                                ('solar', 'Solar') ],
                                             
