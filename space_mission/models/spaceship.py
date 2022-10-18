@@ -15,7 +15,7 @@ class Spaceship(models.Model):
                                             
                                  )
     ship_type = fields.Selection (string ='Ship Type',
-                                  slection = [ ('flyby', 'Flyby') ,
+                                  selection = [ ('flyby', 'Flyby') ,
                                                ('orbiter', 'Orbiter'),
                                                ('atmospheric','Atmospheric'),
                                                ('lander','Lander'),
